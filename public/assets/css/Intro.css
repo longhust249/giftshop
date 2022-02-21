@@ -1,0 +1,87 @@
+
+/* INTRO */
+.intro-content{
+    height: 850px;
+    padding: 0 85px;
+    margin: 50px 0;
+}
+.row{
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.main-intro{
+    max-width: 75%;
+    padding: 0 15px;
+}
+.main-intro p{
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+.main-intro p a{
+    text-decoration: none;
+    color: #282828;
+}
+.main-intro p a:hover{
+    color: #d3b895;
+}
+.nav-intro{
+    padding: 0 15px;
+    width: 25%;
+}
+.sidebox{
+    padding: 24px 16px;
+    border: 1px solid #dee2e6!important;
+}
+.sidebox-items{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.sidebox-items header{
+    font-size: 18px;
+    padding: 0 0 10px;
+    border-bottom: 1px solid #dee2e6;
+    text-align: center;
+    top: 0;
+}
+.sidebox-items li {
+    padding: 12px 0;
+    border-bottom: 1px dashed #dee2e6;
+}
+.sidebox-items li a{
+    font-size: 16px;
+    color: #282828;
+    text-decoration: none;
+}
+.sidebox-items li a:hover{
+    color: #d3b895;
+}
+/* DOITRA */
+.doitra-content{
+    height: 400px;
+    padding: 0 85px;
+    margin: 50px 0;
+}
+.title-doitra{
+    font-weight: 600;
+}
+.main-doitra li{
+    font-size: 14px;
+}
+/* SECURITY */
+.security-content{
+    height: 350px;
+    padding: 0 85px;
+    margin: 50px 0;
+}
+/* SERVICE */
+.service-content{
+    height: 600px;
+    padding: 0 85px;
+    margin: 50px 0;
+}
+.title-service{
+    font-weight: 600;
+}
+

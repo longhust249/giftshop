@@ -1,0 +1,35 @@
+:root {
+    --white-color: white;
+    --black-color: black;
+    --text-color: #333;
+    --navbar-height: 40px;
+    --header-height: 130px; 
+    --header-with-bar-height: calc(var(--header-height) - var(--navbar-height));
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.grid{
+    width: 1380px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid_full-width{
+    width: 100%;
+}
+
+.grid_row{
+    display: flex;
+    flex-wrap: wrap;
+}
+

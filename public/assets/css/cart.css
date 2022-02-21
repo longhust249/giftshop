@@ -1,0 +1,122 @@
+.cart{
+    padding: 0 85px;
+    margin: 50px 0;
+}
+.heading-cart{
+    padding-bottom: 30px;
+    padding-top: 16px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    margin-bottom: 8px;
+}
+.cart-main{
+    width: 65%;
+    padding: 0 15px;
+}
+.cart-main-title{
+    font-size: 16px;
+    background: #f3f5f6;
+    padding: 10px 15px;
+}
+.cart-main-table{
+    padding: 15px 0;
+    border-bottom: 1px solid #dee2e6;
+}
+.cart-main-item{
+    display: flex;
+}
+.cart-img{
+    width: 100px;
+    margin-right: 16px;
+}
+.cart-item-info{
+    position: relative;
+    width: 100%;
+}
+.cart-item-infor-title{
+    padding-right: 24px;
+    margin-bottom: 4px;
+    line-height: 1.4;
+    font-family: 'vnf-optima-regular',sans-serif;
+    color: #282828;
+    font-size: 16px;
+}
+.cart-item-infor-price{
+    margin-bottom: 8px;
+    line-height: 1.4;
+    font-family: 'vnf-optima-regular',sans-serif;
+    color: #282828;
+    font-size: 14px;
+}
+.cart-item-info-delete{
+    position: absolute;
+}
+.ti-trash{
+    float: right;
+    font-size: 18px;
+    color: #000;
+
+}
+.cart-info{
+    width: 35%;
+    padding: 0 15px;
+}
+.cart-info-content{
+    padding: 16px;
+    border: 1px solid #dee2e6;
+}
+.cart-info-title{
+    font-size: 20px;
+    margin-bottom: 16px;
+    font-weight: 500;
+    line-height: 1.2;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.cart-info-price{
+    margin-bottom: 8px;
+}
+.cart-info-price-detail{
+    padding-bottom: 16px;
+    padding-top: 16px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    border-bottom: 1px solid #dee2e6;
+    border-top: 1px solid #dee2e6;
+    font-size: 18px;
+    font-weight: 600;
+}
+.cart-info-price-detail span{
+    color: red;
+    font-size: 20px;
+    font-weight: 500;
+}
+.cart-info-payment-btn{
+    text-decoration: none;
+    outline: none;
+    display: block;
+    font-size: 15px;
+    background: red;
+    padding: 10px 0;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+.cart-info-payment-btn:hover{
+    background-color: rgb(238, 94, 94);
+}
+.cart-backshopping{
+    font-size: 16px;
+    color: #282828;
+    text-align: center;
+    margin-top: .5rem;
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+}
+

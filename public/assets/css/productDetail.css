@@ -1,0 +1,133 @@
+.product-detail{
+    margin: 50px 0;
+    padding: 0 85px;   
+}
+.product-detail-img{
+    width: 50%;
+    padding: 0 15px;
+    display: flex;
+}
+.product-thumb{
+    width: 90px;
+    padding-right: 15px;
+    height: 498px;
+}
+.product-thumb-detail{
+    margin-bottom: 10px;
+    width: 75px;
+}
+.product-thumb-detail:hover{
+    opacity: 0.7;
+    cursor: pointer;
+    border: 1px solid #D3B895;
+}
+.product-img{
+    width: calc(100% - 90px);
+}
+.product-img-detail{
+    width: 100%;
+}
+.product-detail-info{
+    padding: 0 15px;
+    width: 50%;
+}
+.product-detail-heading{
+    font-size: 25px;
+    color: #282828;
+    margin-bottom: 16px;
+}
+.product-detail-price{
+    margin-bottom: 16px;
+    padding: 16px 0;
+    font-size: 18px;
+    opacity: .92;
+    color: red;
+    font-weight: 500;
+    border-top: 1px dotted #dee2e6;
+    border-bottom: 1px dotted #dee2e6;
+}
+.product-quatity{
+    margin-bottom: 40px;
+}
+.btn-secondary {
+    background-color: white;
+    color: #282828;
+    width: 40px;
+    height: 48px;
+    font-size: 20px;
+}
+.product-add-cart{
+    width: calc(100% - 135px);
+    float: right;
+    padding-left: 15px;
+}
+.product-policy{
+    margin: 0;
+    padding: 0;
+}
+.product-policy li{
+    padding: 4px 0 15px 0;
+    list-style: none;
+    font-size: 14px;
+}
+.png{
+    padding-right: 5px;
+}
+.product-detail-disc{
+    padding: 0 85px;
+    margin-top: 50px;
+}
+.detail-disc-title{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    border-bottom: 3px solid #dee2e6;
+}
+.detail-disc-heading .discribe{
+    color: #D3B895 ;
+    border-color: #D3B895;
+}
+.detail-disc-heading{
+    font-size: 15px;
+    padding: 0 20px 10px;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 0;
+    color: #282828;
+    border: 0;
+    border-bottom: 3px solid transparent;
+    background-color: transparent;
+    margin-bottom: -2px;
+}
+
+.detail-disc-heading:hover{
+    color: #D3B895;
+    cursor: pointer;
+    border-color: #D3B895;
+}
+.detail-disc-para-discribe,
+.detail-disc-para-turnback,
+.detail-disc-para-secury{
+    padding-top: 20px;
+    padding-bottom: 5px;
+    font-size: 14px;
+}
+.detail-disc-para1{
+    margin-bottom: 16px
+}
+.detail-disc-para2{
+    font-weight: 700;
+}
+.detail-disc-para4{
+    font-weight: 700;
+}
+.detail-disc-para6{
+    font-weight: 700;
+}
+.detail-disc-para-turnback,
+.detail-disc-para-secury{
+    display: none;
+}
+
+
